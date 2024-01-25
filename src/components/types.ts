@@ -1,0 +1,63 @@
+import { type Editor } from "@tiptap/react";
+export interface MenubarProps {
+  editor?: Editor | null;
+  boldIcon?: React.ReactNode;
+  italicIcon?: React.ReactNode;
+  strikethroughIcon?: React.ReactNode;
+  codeIcon?: React.ReactNode;
+  heading1Icon?: React.ReactNode;
+  heading2Icon?: React.ReactNode;
+  heading3Icon?: React.ReactNode;
+  bulletListIcon?: React.ReactNode;
+  orderedListIcon?: React.ReactNode;
+  codeBlockIcon?: React.ReactNode;
+  blockquoteIcon?: React.ReactNode;
+  undoIcon?: React.ReactNode;
+  redoIcon?: React.ReactNode;
+  showBold?: boolean;
+  showItalic?: boolean;
+  showStrikethrough?: boolean;
+  showCode?: boolean;
+  showHeading1?: boolean;
+  showHeading2?: boolean;
+  showHeading3?: boolean;
+  showBulletList?: boolean;
+  showOrderedList?: boolean;
+  showCodeBlock?: boolean;
+  showBlockquote?: boolean;
+  showUndoIcon?: boolean;
+  showRedoIcon?: boolean;
+  buttonStyle?: string;
+}
+
+export interface TipTapProps {
+  boldIcon?: React.ReactNode;
+  italicIcon?: React.ReactNode;
+  strikethroughIcon?: React.ReactNode;
+  codeIcon?: React.ReactNode;
+  heading1Icon?: React.ReactNode;
+  heading2Icon?: React.ReactNode;
+  heading3Icon?: React.ReactNode;
+  bulletListIcon?: React.ReactNode;
+  orderedListIcon?: React.ReactNode;
+  codeBlockIcon?: React.ReactNode;
+  blockquoteIcon?: React.ReactNode;
+  undoIcon?: React.ReactNode;
+  redoIcon?: React.ReactNode;
+  showBold?: boolean;
+  showItalic?: boolean;
+  showStrikethrough?: boolean;
+  showCode?: boolean;
+  showHeading1?: boolean;
+  showHeading2?: boolean;
+  showHeading3?: boolean;
+  showBulletList?: boolean;
+  showOrderedList?: boolean;
+  showCodeBlock?: boolean;
+  showBlockquote?: boolean;
+  showUndoIcon?: boolean;
+  showRedoIcon?: boolean;
+  onchange?: (text: string) => void;
+  editorClass: string;
+  buttonStyle?: string;
+}

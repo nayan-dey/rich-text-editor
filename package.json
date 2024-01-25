@@ -1,0 +1,49 @@
+{
+  "name": "simple-rich-text-editor",
+  "version": "1.1.6",
+  "description": "a rich text editor for react",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "editor",
+    "text-editor",
+    "quill",
+    "react"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nayan-dey/rich-text-editor.git"
+  },
+  "author": "nayan-dey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nayan-dey/rich-text-editor/issues"
+  },
+  "homepage": "https://github.com/nayan-dey/rich-text-editor#readme",
+  "dependencies": {
+    "@tiptap/pm": "^2.1.16",
+    "@tiptap/react": "^2.1.16",
+    "@tiptap/starter-kit": "^2.1.16",
+    "@radix-ui/react-toggle": "^1.0.3"
+  },
+  "peerDependencies": {
+    "@tiptap/pm": "^2.1.16",
+    "@tiptap/react": "^2.1.16",
+    "@tiptap/starter-kit": "^2.1.16",
+    "@radix-ui/react-toggle": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "react": "^18",
+    "react-dom": "^18",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3",
+    "@radix-ui/react-toggle": "^1.0.3"
+  }
+}
